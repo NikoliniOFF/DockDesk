@@ -1,0 +1,41 @@
+name: Сообщить о баге
+description: Что-то в DockDesk работает не так
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Спасибо, что сообщаете! Чем подробнее — тем быстрее получится исправить."
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось
+      placeholder: "Например: после выхода не вернулась панель задач"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить
+      placeholder: "1. …\n2. …"
+  - type: input
+    id: app
+    attributes:
+      label: С какой программой
+      description: Если баг связан с конкретным значком на доке — какая это программа.
+      placeholder: "Telegram из Microsoft Store"
+  - type: input
+    id: version
+    attributes:
+      label: Версия DockDesk
+      description: Меню значка в трее → «О программе»
+      placeholder: "0.1.0"
+  - type: input
+    id: windows
+    attributes:
+      label: Windows и экран
+      placeholder: "Windows 11, масштаб 125%, два монитора"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Скриншот или журнал
+      description: "Перетащите сюда скриншот. Журнал: запустите `DockDesk.exe --log`, он появится в `%APPDATA%\\DockDesk\\DockDesk.log`."
