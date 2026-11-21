@@ -126,7 +126,7 @@
 
 ## 💬 Обсуждение
 
-- 💡 [Предложить идею](https://github.com/NikoliniOFF/DockDesk/discussions/new?category=%D0%B8%D0%B4%D0%B5%D0%B8)
+- 💡 [Предложить идею](https://github.com/NikoliniOFF/DockDesk/discussions/new?category=ideas)
 - 🐞 [Сообщить о баге](https://github.com/NikoliniOFF/DockDesk/issues/new?template=bug.yml)
 - 💬 [Все обсуждения](https://github.com/NikoliniOFF/DockDesk/discussions)
 
