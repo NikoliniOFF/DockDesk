@@ -106,9 +106,16 @@
     </td>
   </tr>
   <tr>
+    <td width="96" align="center"><a href="https://nikolinioff.github.io/WinterDesk/"><img src="docs/assets/apps/winterdesk.png" alt="WinterDesk" width="72"></a></td>
+    <td>
+      <b><a href="https://nikolinioff.github.io/WinterDesk/">WinterDesk</a></b> — снег на рабочем столе Windows: сугробы на окнах, гирлянды, ёлочка и отсчёт до Нового года.<br>
+      <sub><a href="https://nikolinioff.github.io/WinterDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/WinterDesk">GitHub</a></sub>
+    </td>
+  </tr>
+  <tr>
     <td width="96" align="center"><a href="https://nikolinioff.github.io/PeekDesk/"><img src="docs/assets/apps/peekdesk.png" alt="PeekDesk" width="72"></a></td>
     <td>
-      <b><a href="https://nikolinioff.github.io/PeekDesk/">PeekDesk</a></b> — предпросмотр файлов по пробелу в Проводнике, как Quick Look в macOS.<br>
+      <b><a href="https://nikolinioff.github.io/PeekDesk/">PeekDesk</a></b> — предпросмотр файлов по пробелу в Проводнике Windows, как Quick Look в macOS.<br>
       <sub><a href="https://nikolinioff.github.io/PeekDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/PeekDesk">GitHub</a></sub>
     </td>
   </tr>
@@ -120,10 +127,17 @@
     </td>
   </tr>
   <tr>
-    <td width="96" align="center"><a href="https://nikolinioff.github.io/WinterDesk/"><img src="docs/assets/apps/winterdesk.png" alt="WinterDesk" width="72"></a></td>
+    <td width="96" align="center"><a href="https://nikolinioff.github.io/SpotDesk/"><img src="docs/assets/apps/spotdesk.png" alt="SpotDesk" width="72"></a></td>
     <td>
-      <b><a href="https://nikolinioff.github.io/WinterDesk/">WinterDesk</a></b> — снег на рабочем столе Windows: сугробы на окнах, гирлянды, ёлочка и отсчёт до Нового года.<br>
-      <sub><a href="https://nikolinioff.github.io/WinterDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/WinterDesk">GitHub</a></sub>
+      <b><a href="https://nikolinioff.github.io/SpotDesk/">SpotDesk</a></b> — быстрый поиск по Alt+Space в Windows, как Spotlight в macOS: программы, файлы, калькулятор и курсы валют.<br>
+      <sub><a href="https://nikolinioff.github.io/SpotDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/SpotDesk">GitHub</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="96" align="center"><a href="https://nikolinioff.github.io/IslandDesk/"><img src="docs/assets/apps/islanddesk.png" alt="IslandDesk" width="72"></a></td>
+    <td>
+      <b><a href="https://nikolinioff.github.io/IslandDesk/">IslandDesk</a></b> — «Динамический остров» для Windows: музыка, громкость, таймер, загрузки и уведомления в живой пилюле вверху экрана.<br>
+      <sub><a href="https://nikolinioff.github.io/IslandDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/IslandDesk">GitHub</a></sub>
     </td>
   </tr>
   <!-- Новая программа: скопируйте строку <tr>…</tr> выше и поменяйте значок, название, описание и ссылки. -->
