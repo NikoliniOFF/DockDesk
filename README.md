@@ -99,6 +99,13 @@
 
 <table>
   <tr>
+    <td width="96" align="center"><a href="https://nikolinioff.github.io/HubDesk/"><img src="docs/assets/apps/hubdesk.png" alt="HubDesk" width="72"></a></td>
+    <td>
+      <b><a href="https://nikolinioff.github.io/HubDesk/">HubDesk</a></b> — все программы Nikolini в одном окне: установка, включение, автозапуск и обновления галочками.<br>
+      <sub><a href="https://nikolinioff.github.io/HubDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/HubDesk">GitHub</a></sub>
+    </td>
+  </tr>
+  <tr>
     <td width="96" align="center"><a href="https://nikolinioff.github.io/PeekDesk/"><img src="docs/assets/apps/peekdesk.png" alt="PeekDesk" width="72"></a></td>
     <td>
       <b><a href="https://nikolinioff.github.io/PeekDesk/">PeekDesk</a></b> — предпросмотр файлов по пробелу в Проводнике, как Quick Look в macOS.<br>
@@ -106,10 +113,10 @@
     </td>
   </tr>
   <tr>
-    <td width="96" align="center"><a href="https://github.com/NikoliniOFF/SnapDesk"><img src="docs/assets/apps/snapdesk.png" alt="SnapDesk" width="72"></a></td>
+    <td width="96" align="center"><a href="https://nikolinioff.github.io/SnapDesk/"><img src="docs/assets/apps/snapdesk.png" alt="SnapDesk" width="72"></a></td>
     <td>
-      <b><a href="https://github.com/NikoliniOFF/SnapDesk">SnapDesk</a></b> — быстрые скриншоты и запись экрана по горячей клавише, как в macOS.<br>
-      <sub><a href="https://github.com/NikoliniOFF/SnapDesk">GitHub</a></sub>
+      <b><a href="https://nikolinioff.github.io/SnapDesk/">SnapDesk</a></b> — скриншоты и запись экрана по горячей клавише в Windows, как Cmd+Shift+5 в macOS: область, окно, экран или видео.<br>
+      <sub><a href="https://nikolinioff.github.io/SnapDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/SnapDesk">GitHub</a></sub>
     </td>
   </tr>
   <tr>
