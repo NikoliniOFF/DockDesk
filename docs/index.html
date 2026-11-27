@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>DockDesk для Windows — док внизу экрана, как в macOS</title>
-<meta name="description" content="DockDesk — бесплатный док для Windows 10 и 11, как в macOS: закреплённые программы, плавное увеличение значков, запущенные окна, корзина и автоскрытие.">
+<meta name="description" content="DockDesk — бесплатный док для Windows 10 и 11, как в macOS: закреплённые программы, плавное увеличение значков, системная область, несколько окон у программы и скрытая панель задач.">
 <link rel="canonical" href="https://nikolinioff.github.io/DockDesk/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="DockDesk">
@@ -81,12 +81,12 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
     <div>
       <img class="logo" src="assets/icon-256.png" alt="Значок DockDesk">
       <h1>Док для Windows, <span>как в macOS</span></h1>
-      <p class="lead">DockDesk — док внизу экрана: любимые программы под рукой, значки плавно растут под курсором, запущенные окна — в один щелчок. Панель задач Windows можно спрятать.</p>
+      <p class="lead">DockDesk — док внизу экрана: любимые программы под рукой, значки плавно растут под курсором, запущенные окна — в один щелчок. Панель задач Windows по умолчанию прячется: часы, громкость и значки в трее остаются на доке.</p>
       <a class="btn dl" href="https://github.com/NikoliniOFF/DockDesk/releases/latest/download/DockDesk-win64.zip" download="DockDesk-win64.zip">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>
         Скачать DockDesk
       </a>
-      <p class="meta"><span class="dlinfo">ZIP · около&nbsp;0,3&nbsp;МБ</span> · Windows 10 и 11 (64-бит) · <a href="https://github.com/NikoliniOFF/DockDesk/releases">все версии</a></p>
+      <p class="meta"><span class="dlinfo">ZIP · около&nbsp;0,5&nbsp;МБ</span> · Windows 10 и 11 (64-бит) · <a href="https://github.com/NikoliniOFF/DockDesk/releases">все версии</a></p>
       <p class="dlcount" hidden></p>
     </div>
     <div class="stack">
@@ -100,11 +100,13 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
       <div class="card"><div class="ic">🧲</div><h3>Док где удобно</h3><p>Внизу по центру, слева или справа. Полупрозрачный, поверх окон и над панелью задач. Может прятаться и выезжать у края экрана.</p></div>
       <div class="card"><div class="ic">📌</div><h3>Закрепление</h3><p>Перетащите на док программу, ярлык или папку. Порядок меняется мышью, вынесли значок за док — он открепился.</p></div>
       <div class="card"><div class="ic">🔍</div><h3>Увеличение</h3><p>Значки под курсором плавно растут, соседние — чуть меньше. Значки в высоком разрешении, без размытия.</p></div>
-      <div class="card"><div class="ic">🪟</div><h3>Запущенные программы</h3><p>Точка под запущенной программой, синяя — у активной. Щелчок — переключиться или свернуть, средняя кнопка — новое окно.</p></div>
-      <div class="card"><div class="ic">📋</div><h3>Меню окон</h3><p>Правый щелчок по значку: список окон программы, «Открыть расположение файла», «Открепить» и «Закрыть».</p></div>
-      <div class="card"><div class="ic">🗑️</div><h3>Корзина</h3><p>Видно, пустая она или нет. Бросьте файл на корзину — он удалится в неё; «Очистить корзину» — в меню.</p></div>
-      <div class="card"><div class="ic">🫥</div><h3>Без панели задач</h3><p>Панель задач Windows можно спрятать. Она вернётся при выходе из DockDesk — даже после аварийного закрытия.</p></div>
-      <div class="card"><div class="ic">🎮</div><h3>Не мешает играм</h3><p>Над полноэкранными играми и видео док уходит с экрана сам.</p></div>
+      <div class="card"><div class="ic">🪟</div><h3>Запущенные программы</h3><p>Точка под запущенной программой (одна, две или три — по числу окон), синяя — у активной. Если окон несколько, щелчок открывает список с заголовками.</p></div>
+      <div class="card"><div class="ic">📋</div><h3>Меню окон</h3><p>Правый щелчок по значку: окна программы, «Новое окно», «Открыть расположение файла», «Открепить» и «Закрыть все».</p></div>
+      <div class="card"><div class="ic">🗑️</div><h3>Корзина</h3><p>Видно, пустая она или нет, и сколько в ней файлов. Бросьте файл на корзину — он удалится в неё; «Очистить корзину» — в меню.</p></div>
+      <div class="card"><div class="ic">🫥</div><h3>Без панели задач</h3><p>По умолчанию панель задач скрыта, окна занимают весь экран, док поверх них. Панель вернётся при выходе — даже после аварийного закрытия.</p></div>
+      <div class="card"><div class="ic">🕒</div><h3>Системная область</h3><p>Часы и дата, громкость, сеть, уведомления, параметры Windows, «Пуск» и значки в трее — на самом доке. Щелчок по часам открывает календарь.</p></div>
+      <div class="card"><div class="ic">🖥️</div><h3>Несколько экранов</h3><p>Док можно поставить на основной экран, на экран под курсором или на выбранный монитор.</p></div>
+      <div class="card"><div class="ic">🎮</div><h3>Не мешает играм</h3><p>Над полноэкранными играми и видео док уходит с экрана сам. Обычные развёрнутые окна его не прячут.</p></div>
       <div class="card"><div class="ic">🪶</div><h3>Лёгкий</h3><p>Без движения мыши DockDesk не тратит процессор: кадры рисуются только во время анимации. Светлая и тёмная тема.</p></div>
     </div>
   </section>
@@ -112,7 +114,9 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
   <section id="gallery">
     <h2>Как это выглядит</h2><p class="sub">Настоящие скриншоты DockDesk</p>
     <div class="gal">
-      <figure><div class="shot"><img src="assets/media/settings-main-light.png" alt="Настройки, светлая тема" loading="lazy" width="600" height="760"></div><figcaption>Настройки — светлая тема</figcaption></figure>
+      <figure><div class="shot"><img src="assets/media/dock-sysarea-light.png" alt="Док со системной областью" loading="lazy" width="1600" height="1000"></div><figcaption>Часы, громкость и значки в трее на доке</figcaption></figure>
+      <figure><div class="shot"><img src="assets/media/dock-picker-light.png" alt="Выбор окна программы" loading="lazy" width="1600" height="1000"></div><figcaption>Если у программы несколько окон</figcaption></figure>
+      <figure><div class="shot"><img src="assets/media/settings-import-light.png" alt="Настройки: скрыть панель задач и импорт закреплений" loading="lazy" width="1600" height="1000"></div><figcaption>Скрыть панель задач и перенести закрепления</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/settings-look-dark.png" alt="Вкладка «Вид», тёмная тема" loading="lazy" width="600" height="760"></div><figcaption>Вкладка «Вид» — тёмная тема</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/dock-menu-dark.png" alt="Меню значка" loading="lazy" width="500" height="410"></div><figcaption>Окна программы и «Закрыть»</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/dock-left-dark.png" alt="Док у левого края" loading="lazy" width="420" height="800"></div><figcaption>Док у левого края экрана</figcaption></figure>
@@ -122,9 +126,9 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
   <section id="mouse">
     <h2>Мышь</h2><p class="sub">Всё — как в macOS</p>
     <table class="keys">
-      <tr><td>Щелчок по значку</td><td>запустить или переключиться на окно; ещё щелчок — свернуть</td></tr>
+      <tr><td>Щелчок по значку</td><td>запустить или переключиться на окно; если окон несколько — выбрать из списка; ещё щелчок — свернуть</td></tr>
       <tr><td>Средняя кнопка, <kbd>Shift</kbd>+щелчок</td><td>новое окно программы</td></tr>
-      <tr><td>Правый щелчок по значку</td><td>окна программы, расположение файла, закрепить / открепить, закрыть</td></tr>
+      <tr><td>Правый щелчок по значку</td><td>окна программы, «Новое окно», расположение файла, закрепить / открепить, закрыть все</td></tr>
       <tr><td>Правый щелчок по пустому месту</td><td>настройки, положение на экране, увеличение, автоскрытие</td></tr>
       <tr><td>Перетащить файл на док</td><td>между значками — закрепить; на программу — открыть в ней; на корзину — удалить</td></tr>
       <tr><td>Перетащить значок</td><td>поменять порядок; за пределы дока — открепить</td></tr>
@@ -145,6 +149,8 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
     <h2>Вопросы</h2>
     <details><summary>Почему SmartScreen предупреждает?</summary><p>Программа новая и пока не подписана платным сертификатом. Скачивайте DockDesk только со страницы выпусков на GitHub — рядом с архивом лежит файл .sha256 с контрольной суммой.</p></details>
     <details><summary>Я спрятал панель задач. Как её вернуть?</summary><p>Выключите «Скрывать панель задач Windows» в настройках или выйдите из DockDesk через значок у часов. Если программа закрылась аварийно, панель вернётся при следующем запуске.</p></details>
+    <details><summary>Куда делись часы и значки у часов?</summary><p>Когда панель задач спрятана, часы, громкость, сеть, уведомления, «Пуск» и значки в трее живут на доке. Щёлкните часы, чтобы открыть календарь, или кнопку трея — чтобы открыть скрытые значки.</p></details>
+    <details><summary>Док пропал после включения аппаратного ускорения</summary><p>С версии 1.0.2 DockDesk сам переключается на обычную отрисовку, если видеокарта не справилась. Причину можно посмотреть в файле <code>%APPDATA%\DockDesk\DockDesk.log</code>. Аппаратное ускорение можно выключить в настройках.</p></details>
     <details><summary>Не будет ли тормозить компьютер?</summary><p>Нет. Пока вы не наводите мышь на док, DockDesk ничего не рисует и не опрашивает: за окнами он следит по событиям Windows.</p></details>
     <details><summary>Программа что-нибудь отправляет?</summary><p>Нет. В интернет DockDesk обращается лишь к GitHub за обновлениями — это можно выключить. На этом сайте нет счётчиков и аналитики.</p></details>
   </section>
